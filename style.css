@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#casella-email 
+{
+    padding: 2.5px;
+    color: rgba(0, 0, 255, 0.462);
+    background:radial-gradient( #C9D7DD, #FFF3CF, #E8C872) ;
+    font-weight: bold;
+
+}
+#casella-email::placeholder
+{
+    text-align: center;
+    font-size: medium;
+    font-weight:bold ;
+    color: #888;
+}
